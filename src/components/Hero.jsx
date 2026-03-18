@@ -20,7 +20,7 @@ export default function Hero() {
 
       <div className={styles.inner}>
         <div className={styles.content}>
-          <div className={styles.badge} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <div className={styles.badge} style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
             <Coffee size={16} /> Sorveteria & Cafeteria
           </div>
           <h1 className={styles.title}>
