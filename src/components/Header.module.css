@@ -124,20 +124,22 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.97);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: #ffffff;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 12px;
     opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
     pointer-events: none;
-    transition: opacity var(--transition-smooth);
+    transition: all var(--transition-smooth);
   }
 
   .navOpen {
     opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
     pointer-events: all;
   }
 
